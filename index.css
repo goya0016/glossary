@@ -1,0 +1,4 @@
+button:focus, button:hover{
+    outline: 3px solid black;
+    outline-offset: 3px;
+}

@@ -1,5 +1,5 @@
 var btns = document.querySelectorAll(".alphabetBtn");
-var returnToTop = document.getElementById("returnToTop");
+var returnToTop = document.getElementById("returnToTop").addEventListener('click',(ev)=>{backToTop(ev)});
 var definitionDiv = document.querySelector(".definitions");
 var currentAlpha;
 
@@ -57,7 +57,13 @@ async function fetchFile(ev) {
     })
     .catch((err) => console.error(err));
 }
-
+function backToTop(ev){
+   var e = "[data-letter="+currentAlpha+"]"
+   console.log(e)
+var btn = document.querySelector(e)
+btn.scrollIntoView({ behavior: "smooth"});
+btn.focus({ preventScroll: true });
+}
 window.addEventListener("DOMContentLoaded", (ev) => {
   fetchFile(ev);
 });

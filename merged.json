@@ -207,6 +207,1046 @@
     {
       "term": "Zigbee",
       "definition": "A wireless communication protocol for low-power, short-range connectivity."
+    },
+    {
+      "term": "Algorithm",
+      "definition": "A set of rules or instructions designed to solve a problem or complete a task."
+    },
+    {
+      "term": "Binary",
+      "definition": "A system of numerical notation that uses two symbols, typically 0 and 1."
+    },
+    {
+      "term": "Cache",
+      "definition": "A temporary storage area used to speed up data retrieval processes."
+    },
+    {
+      "term": "Database",
+      "definition": "An organized collection of structured information stored electronically."
+    },
+    {
+      "term": "Encryption",
+      "definition": "The process of converting information into a code to prevent unauthorized access."
+    },
+    {
+      "term": "Firewall",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic."
+    },
+    {
+      "term": "Gateway",
+      "definition": "A device or software that acts as a bridge between two networks with different protocols."
+    },
+    {
+      "term": "Hashing",
+      "definition": "A process of transforming data into a fixed-size string of characters, usually for security purposes."
+    },
+    {
+      "term": "Interface",
+      "definition": "A shared boundary across which two systems exchange information."
+    },
+    {
+      "term": "JavaScript",
+      "definition": "A programming language commonly used for web development to create interactive elements."
+    },
+    {
+      "term": "Kernel",
+      "definition": "The central part of an operating system responsible for managing hardware resources."
+    },
+    {
+      "term": "Latency",
+      "definition": "The delay before a transfer of data begins following an instruction for its transfer."
+    },
+    {
+      "term": "Metadata",
+      "definition": "Data that provides information about other data, such as creation date or file size."
+    },
+    {
+      "term": "Network",
+      "definition": "A group of interconnected computers or devices that share resources and information."
+    },
+    {
+      "term": "Object-Oriented Programming",
+      "definition": "A programming paradigm based on objects containing both data and methods."
+    },
+    {
+      "term": "Protocol",
+      "definition": "A set of rules governing communication between devices in a network."
+    },
+    {
+      "term": "Query",
+      "definition": "A request for data or information from a database."
+    },
+    {
+      "term": "Router",
+      "definition": "A device that forwards data packets between computer networks."
+    },
+    {
+      "term": "Server",
+      "definition": "A computer system that provides services or resources to other computers over a network."
+    },
+    {
+      "term": "Tokenization",
+      "definition": "The process of breaking down text into smaller units like words or phrases."
+    },
+    {
+      "term": "Unicode",
+      "definition": "A universal character encoding standard supporting most written languages."
+    },
+    {
+      "term": "Virtual Machine",
+      "definition": "An emulation of a computer system that runs programs like a physical machine."
+    },
+    {
+      "term": "Webhook",
+      "definition": "A method of augmenting or altering the behavior of web applications through custom callbacks."
+    },
+    {
+      "term": "XML",
+      "definition": "A markup language designed to store and transport structured data."
+    },
+    {
+      "term": "YAML",
+      "definition": "A human-readable data serialization format often used for configuration files."
+    },
+    {
+      "term": "Zero-Day Exploit",
+      "definition": "A cyberattack targeting a previously unknown vulnerability in software."
+    },
+    {
+      "term": "API",
+      "definition": "Application Programming Interface; a set of rules allowing programs to communicate with each other."
+    },
+    {
+      "term": "Blockchain",
+      "definition": "A distributed ledger technology where transactions are recorded chronologically and publicly."
+    },
+    {
+      "term": "Cloud Computing",
+      "definition": "The delivery of computing services over the internet without direct management by the user."
+    },
+    {
+      "term": "DNS",
+      "definition": "Domain Name System; translates domain names into IP addresses."
+    },
+    {
+      "term": "Edge Computing",
+      "definition": "A distributed computing paradigm bringing computation closer to the data source."
+    },
+    {
+      "term": "Firmware",
+      "definition": "Software embedded into hardware devices to control their functionality."
+    },
+    {
+      "term": "Git",
+      "definition": "A version control system used to track changes in source code during software development."
+    },
+    {
+      "term": "Hyperlink",
+      "definition": "A reference to data that readers can directly follow by clicking or tapping."
+    },
+    {
+      "term": "IDE",
+      "definition": "Integrated Development Environment; software for building applications combining tools in one GUI."
+    },
+    {
+      "term": "JSON",
+      "definition": "JavaScript Object Notation; a lightweight data-interchange format."
+    },
+    {
+      "term": "Kubernetes",
+      "definition": "An open-source container orchestration platform automating deployment and scaling of apps."
+    },
+    {
+      "term": "Load Balancer",
+      "definition": "A device or software distributing incoming network traffic across multiple servers."
+    },
+    {
+      "term": "Microservices",
+      "definition": "An architectural style structuring an app as loosely coupled services."
+    },
+    {
+      "term": "Node.js",
+      "definition": "A runtime environment enabling server-side execution of JavaScript."
+    },
+    {
+      "term": "Open Source",
+      "definition": "Software whose source code is freely available for modification and redistribution."
+    },
+    {
+      "term": "Proxy Server",
+      "definition": "Acts as an intermediary between clients and servers to filter requests or cache responses."
+    },
+    {
+      "term": "Quantum Computing",
+      "definition": "A type of computing leveraging quantum mechanics to perform complex calculations faster."
+    },
+    {
+      "term": "RESTful API",
+      "definition": "An API adhering to Representational State Transfer principles for stateless client-server interactions."
+    },
+    {
+      "term": "SQL Injection",
+      "definition": "A malicious attack injecting SQL queries via input fields to manipulate databases."
+    },
+    {
+      "term": "Thread",
+      "definition": "A sequence of instructions executed independently within a program."
+    },
+    {
+      "term": "URL",
+      "definition": "Uniform Resource Locator; the address used to access resources on the internet."
+    },
+    {
+      "term": "Version Control",
+      "definition": "A system managing changes to documents, programs, and other collections of information."
+    },
+    {
+      "term": "Wi-Fi",
+      "definition": "Wireless networking technology allowing devices to connect to the internet wirelessly."
+    },
+    {
+      "term": "XSS",
+      "definition": "Cross-Site Scripting; a security vulnerability injecting malicious scripts into trusted websites."
+    },
+    {
+      "term": "Yottabyte",
+      "definition": "A unit of digital information equal to 1 septillion bytes (10^24)."
+    },
+    {
+      "term": "Zigbee",
+      "definition": "A wireless communication protocol for low-power, short-range connectivity."
+    },
+    {
+      "term": "Algorithm",
+      "definition": "A set of rules or instructions designed to solve a problem or complete a task."
+    },
+    {
+      "term": "Binary",
+      "definition": "A system of numerical notation that uses two symbols, typically 0 and 1."
+    },
+    {
+      "term": "Cache",
+      "definition": "A temporary storage area used to speed up data retrieval processes."
+    },
+    {
+      "term": "Database",
+      "definition": "An organized collection of structured information stored electronically."
+    },
+    {
+      "term": "Encryption",
+      "definition": "The process of converting information into a code to prevent unauthorized access."
+    },
+    {
+      "term": "Firewall",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic."
+    },
+    {
+      "term": "Gateway",
+      "definition": "A device or software that acts as a bridge between two networks with different protocols."
+    },
+    {
+      "term": "Hashing",
+      "definition": "A process of transforming data into a fixed-size string of characters, usually for security purposes."
+    },
+    {
+      "term": "Interface",
+      "definition": "A shared boundary across which two systems exchange information."
+    },
+    {
+      "term": "JavaScript",
+      "definition": "A programming language commonly used for web development to create interactive elements."
+    },
+    {
+      "term": "Kernel",
+      "definition": "The central part of an operating system responsible for managing hardware resources."
+    },
+    {
+      "term": "Latency",
+      "definition": "The delay before a transfer of data begins following an instruction for its transfer."
+    },
+    {
+      "term": "Metadata",
+      "definition": "Data that provides information about other data, such as creation date or file size."
+    },
+    {
+      "term": "Network",
+      "definition": "A group of interconnected computers or devices that share resources and information."
+    },
+    {
+      "term": "Object-Oriented Programming",
+      "definition": "A programming paradigm based on objects containing both data and methods."
+    },
+    {
+      "term": "Protocol",
+      "definition": "A set of rules governing communication between devices in a network."
+    },
+    {
+      "term": "Query",
+      "definition": "A request for data or information from a database."
+    },
+    {
+      "term": "Router",
+      "definition": "A device that forwards data packets between computer networks."
+    },
+    {
+      "term": "Server",
+      "definition": "A computer system that provides services or resources to other computers over a network."
+    },
+    {
+      "term": "Tokenization",
+      "definition": "The process of breaking down text into smaller units like words or phrases."
+    },
+    {
+      "term": "Unicode",
+      "definition": "A universal character encoding standard supporting most written languages."
+    },
+    {
+      "term": "Virtual Machine",
+      "definition": "An emulation of a computer system that runs programs like a physical machine."
+    },
+    {
+      "term": "Webhook",
+      "definition": "A method of augmenting or altering the behavior of web applications through custom callbacks."
+    },
+    {
+      "term": "XML",
+      "definition": "A markup language designed to store and transport structured data."
+    },
+    {
+      "term": "YAML",
+      "definition": "A human-readable data serialization format often used for configuration files."
+    },
+    {
+      "term": "Zero-Day Exploit",
+      "definition": "A cyberattack targeting a previously unknown vulnerability in software."
+    },
+    {
+      "term": "API",
+      "definition": "Application Programming Interface; a set of rules allowing programs to communicate with each other."
+    },
+    {
+      "term": "Blockchain",
+      "definition": "A distributed ledger technology where transactions are recorded chronologically and publicly."
+    },
+    {
+      "term": "Cloud Computing",
+      "definition": "The delivery of computing services over the internet without direct management by the user."
+    },
+    {
+      "term": "DNS",
+      "definition": "Domain Name System; translates domain names into IP addresses."
+    },
+    {
+      "term": "Edge Computing",
+      "definition": "A distributed computing paradigm bringing computation closer to the data source."
+    },
+    {
+      "term": "Firmware",
+      "definition": "Software embedded into hardware devices to control their functionality."
+    },
+    {
+      "term": "Git",
+      "definition": "A version control system used to track changes in source code during software development."
+    },
+    {
+      "term": "Hyperlink",
+      "definition": "A reference to data that readers can directly follow by clicking or tapping."
+    },
+    {
+      "term": "IDE",
+      "definition": "Integrated Development Environment; software for building applications combining tools in one GUI."
+    },
+    {
+      "term": "JSON",
+      "definition": "JavaScript Object Notation; a lightweight data-interchange format."
+    },
+    {
+      "term": "Kubernetes",
+      "definition": "An open-source container orchestration platform automating deployment and scaling of apps."
+    },
+    {
+      "term": "Load Balancer",
+      "definition": "A device or software distributing incoming network traffic across multiple servers."
+    },
+    {
+      "term": "Microservices",
+      "definition": "An architectural style structuring an app as loosely coupled services."
+    },
+    {
+      "term": "Node.js",
+      "definition": "A runtime environment enabling server-side execution of JavaScript."
+    },
+    {
+      "term": "Open Source",
+      "definition": "Software whose source code is freely available for modification and redistribution."
+    },
+    {
+      "term": "Proxy Server",
+      "definition": "Acts as an intermediary between clients and servers to filter requests or cache responses."
+    },
+    {
+      "term": "Quantum Computing",
+      "definition": "A type of computing leveraging quantum mechanics to perform complex calculations faster."
+    },
+    {
+      "term": "RESTful API",
+      "definition": "An API adhering to Representational State Transfer principles for stateless client-server interactions."
+    },
+    {
+      "term": "SQL Injection",
+      "definition": "A malicious attack injecting SQL queries via input fields to manipulate databases."
+    },
+    {
+      "term": "Thread",
+      "definition": "A sequence of instructions executed independently within a program."
+    },
+    {
+      "term": "URL",
+      "definition": "Uniform Resource Locator; the address used to access resources on the internet."
+    },
+    {
+      "term": "Version Control",
+      "definition": "A system managing changes to documents, programs, and other collections of information."
+    },
+    {
+      "term": "Wi-Fi",
+      "definition": "Wireless networking technology allowing devices to connect to the internet wirelessly."
+    },
+    {
+      "term": "XSS",
+      "definition": "Cross-Site Scripting; a security vulnerability injecting malicious scripts into trusted websites."
+    },
+    {
+      "term": "Yottabyte",
+      "definition": "A unit of digital information equal to 1 septillion bytes (10^24)."
+    },
+    {
+      "term": "Zigbee",
+      "definition": "A wireless communication protocol for low-power, short-range connectivity."
+    },
+    {
+      "term": "Algorithm",
+      "definition": "A set of rules or instructions designed to solve a problem or complete a task."
+    },
+    {
+      "term": "Binary",
+      "definition": "A system of numerical notation that uses two symbols, typically 0 and 1."
+    },
+    {
+      "term": "Cache",
+      "definition": "A temporary storage area used to speed up data retrieval processes."
+    },
+    {
+      "term": "Database",
+      "definition": "An organized collection of structured information stored electronically."
+    },
+    {
+      "term": "Encryption",
+      "definition": "The process of converting information into a code to prevent unauthorized access."
+    },
+    {
+      "term": "Firewall",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic."
+    },
+    {
+      "term": "Gateway",
+      "definition": "A device or software that acts as a bridge between two networks with different protocols."
+    },
+    {
+      "term": "Hashing",
+      "definition": "A process of transforming data into a fixed-size string of characters, usually for security purposes."
+    },
+    {
+      "term": "Interface",
+      "definition": "A shared boundary across which two systems exchange information."
+    },
+    {
+      "term": "JavaScript",
+      "definition": "A programming language commonly used for web development to create interactive elements."
+    },
+    {
+      "term": "Kernel",
+      "definition": "The central part of an operating system responsible for managing hardware resources."
+    },
+    {
+      "term": "Latency",
+      "definition": "The delay before a transfer of data begins following an instruction for its transfer."
+    },
+    {
+      "term": "Metadata",
+      "definition": "Data that provides information about other data, such as creation date or file size."
+    },
+    {
+      "term": "Network",
+      "definition": "A group of interconnected computers or devices that share resources and information."
+    },
+    {
+      "term": "Object-Oriented Programming",
+      "definition": "A programming paradigm based on objects containing both data and methods."
+    },
+    {
+      "term": "Protocol",
+      "definition": "A set of rules governing communication between devices in a network."
+    },
+    {
+      "term": "Query",
+      "definition": "A request for data or information from a database."
+    },
+    {
+      "term": "Router",
+      "definition": "A device that forwards data packets between computer networks."
+    },
+    {
+      "term": "Server",
+      "definition": "A computer system that provides services or resources to other computers over a network."
+    },
+    {
+      "term": "Tokenization",
+      "definition": "The process of breaking down text into smaller units like words or phrases."
+    },
+    {
+      "term": "Unicode",
+      "definition": "A universal character encoding standard supporting most written languages."
+    },
+    {
+      "term": "Virtual Machine",
+      "definition": "An emulation of a computer system that runs programs like a physical machine."
+    },
+    {
+      "term": "Webhook",
+      "definition": "A method of augmenting or altering the behavior of web applications through custom callbacks."
+    },
+    {
+      "term": "XML",
+      "definition": "A markup language designed to store and transport structured data."
+    },
+    {
+      "term": "YAML",
+      "definition": "A human-readable data serialization format often used for configuration files."
+    },
+    {
+      "term": "Zero-Day Exploit",
+      "definition": "A cyberattack targeting a previously unknown vulnerability in software."
+    },
+    {
+      "term": "API",
+      "definition": "Application Programming Interface; a set of rules allowing programs to communicate with each other."
+    },
+    {
+      "term": "Blockchain",
+      "definition": "A distributed ledger technology where transactions are recorded chronologically and publicly."
+    },
+    {
+      "term": "Cloud Computing",
+      "definition": "The delivery of computing services over the internet without direct management by the user."
+    },
+    {
+      "term": "DNS",
+      "definition": "Domain Name System; translates domain names into IP addresses."
+    },
+    {
+      "term": "Edge Computing",
+      "definition": "A distributed computing paradigm bringing computation closer to the data source."
+    },
+    {
+      "term": "Firmware",
+      "definition": "Software embedded into hardware devices to control their functionality."
+    },
+    {
+      "term": "Git",
+      "definition": "A version control system used to track changes in source code during software development."
+    },
+    {
+      "term": "Hyperlink",
+      "definition": "A reference to data that readers can directly follow by clicking or tapping."
+    },
+    {
+      "term": "IDE",
+      "definition": "Integrated Development Environment; software for building applications combining tools in one GUI."
+    },
+    {
+      "term": "JSON",
+      "definition": "JavaScript Object Notation; a lightweight data-interchange format."
+    },
+    {
+      "term": "Kubernetes",
+      "definition": "An open-source container orchestration platform automating deployment and scaling of apps."
+    },
+    {
+      "term": "Load Balancer",
+      "definition": "A device or software distributing incoming network traffic across multiple servers."
+    },
+    {
+      "term": "Microservices",
+      "definition": "An architectural style structuring an app as loosely coupled services."
+    },
+    {
+      "term": "Node.js",
+      "definition": "A runtime environment enabling server-side execution of JavaScript."
+    },
+    {
+      "term": "Open Source",
+      "definition": "Software whose source code is freely available for modification and redistribution."
+    },
+    {
+      "term": "Proxy Server",
+      "definition": "Acts as an intermediary between clients and servers to filter requests or cache responses."
+    },
+    {
+      "term": "Quantum Computing",
+      "definition": "A type of computing leveraging quantum mechanics to perform complex calculations faster."
+    },
+    {
+      "term": "RESTful API",
+      "definition": "An API adhering to Representational State Transfer principles for stateless client-server interactions."
+    },
+    {
+      "term": "SQL Injection",
+      "definition": "A malicious attack injecting SQL queries via input fields to manipulate databases."
+    },
+    {
+      "term": "Thread",
+      "definition": "A sequence of instructions executed independently within a program."
+    },
+    {
+      "term": "URL",
+      "definition": "Uniform Resource Locator; the address used to access resources on the internet."
+    },
+    {
+      "term": "Version Control",
+      "definition": "A system managing changes to documents, programs, and other collections of information."
+    },
+    {
+      "term": "Wi-Fi",
+      "definition": "Wireless networking technology allowing devices to connect to the internet wirelessly."
+    },
+    {
+      "term": "XSS",
+      "definition": "Cross-Site Scripting; a security vulnerability injecting malicious scripts into trusted websites."
+    },
+    {
+      "term": "Yottabyte",
+      "definition": "A unit of digital information equal to 1 septillion bytes (10^24)."
+    },
+    {
+      "term": "Zigbee",
+      "definition": "A wireless communication protocol for low-power, short-range connectivity."
+    },
+    {
+      "term": "Algorithm",
+      "definition": "A set of rules or instructions designed to solve a problem or complete a task."
+    },
+    {
+      "term": "Binary",
+      "definition": "A system of numerical notation that uses two symbols, typically 0 and 1."
+    },
+    {
+      "term": "Cache",
+      "definition": "A temporary storage area used to speed up data retrieval processes."
+    },
+    {
+      "term": "Database",
+      "definition": "An organized collection of structured information stored electronically."
+    },
+    {
+      "term": "Encryption",
+      "definition": "The process of converting information into a code to prevent unauthorized access."
+    },
+    {
+      "term": "Firewall",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic."
+    },
+    {
+      "term": "Gateway",
+      "definition": "A device or software that acts as a bridge between two networks with different protocols."
+    },
+    {
+      "term": "Hashing",
+      "definition": "A process of transforming data into a fixed-size string of characters, usually for security purposes."
+    },
+    {
+      "term": "Interface",
+      "definition": "A shared boundary across which two systems exchange information."
+    },
+    {
+      "term": "JavaScript",
+      "definition": "A programming language commonly used for web development to create interactive elements."
+    },
+    {
+      "term": "Kernel",
+      "definition": "The central part of an operating system responsible for managing hardware resources."
+    },
+    {
+      "term": "Latency",
+      "definition": "The delay before a transfer of data begins following an instruction for its transfer."
+    },
+    {
+      "term": "Metadata",
+      "definition": "Data that provides information about other data, such as creation date or file size."
+    },
+    {
+      "term": "Network",
+      "definition": "A group of interconnected computers or devices that share resources and information."
+    },
+    {
+      "term": "Object-Oriented Programming",
+      "definition": "A programming paradigm based on objects containing both data and methods."
+    },
+    {
+      "term": "Protocol",
+      "definition": "A set of rules governing communication between devices in a network."
+    },
+    {
+      "term": "Query",
+      "definition": "A request for data or information from a database."
+    },
+    {
+      "term": "Router",
+      "definition": "A device that forwards data packets between computer networks."
+    },
+    {
+      "term": "Server",
+      "definition": "A computer system that provides services or resources to other computers over a network."
+    },
+    {
+      "term": "Tokenization",
+      "definition": "The process of breaking down text into smaller units like words or phrases."
+    },
+    {
+      "term": "Unicode",
+      "definition": "A universal character encoding standard supporting most written languages."
+    },
+    {
+      "term": "Virtual Machine",
+      "definition": "An emulation of a computer system that runs programs like a physical machine."
+    },
+    {
+      "term": "Webhook",
+      "definition": "A method of augmenting or altering the behavior of web applications through custom callbacks."
+    },
+    {
+      "term": "XML",
+      "definition": "A markup language designed to store and transport structured data."
+    },
+    {
+      "term": "YAML",
+      "definition": "A human-readable data serialization format often used for configuration files."
+    },
+    {
+      "term": "Zero-Day Exploit",
+      "definition": "A cyberattack targeting a previously unknown vulnerability in software."
+    },
+    {
+      "term": "API",
+      "definition": "Application Programming Interface; a set of rules allowing programs to communicate with each other."
+    },
+    {
+      "term": "Blockchain",
+      "definition": "A distributed ledger technology where transactions are recorded chronologically and publicly."
+    },
+    {
+      "term": "Cloud Computing",
+      "definition": "The delivery of computing services over the internet without direct management by the user."
+    },
+    {
+      "term": "DNS",
+      "definition": "Domain Name System; translates domain names into IP addresses."
+    },
+    {
+      "term": "Edge Computing",
+      "definition": "A distributed computing paradigm bringing computation closer to the data source."
+    },
+    {
+      "term": "Firmware",
+      "definition": "Software embedded into hardware devices to control their functionality."
+    },
+    {
+      "term": "Git",
+      "definition": "A version control system used to track changes in source code during software development."
+    },
+    {
+      "term": "Hyperlink",
+      "definition": "A reference to data that readers can directly follow by clicking or tapping."
+    },
+    {
+      "term": "IDE",
+      "definition": "Integrated Development Environment; software for building applications combining tools in one GUI."
+    },
+    {
+      "term": "JSON",
+      "definition": "JavaScript Object Notation; a lightweight data-interchange format."
+    },
+    {
+      "term": "Kubernetes",
+      "definition": "An open-source container orchestration platform automating deployment and scaling of apps."
+    },
+    {
+      "term": "Load Balancer",
+      "definition": "A device or software distributing incoming network traffic across multiple servers."
+    },
+    {
+      "term": "Microservices",
+      "definition": "An architectural style structuring an app as loosely coupled services."
+    },
+    {
+      "term": "Node.js",
+      "definition": "A runtime environment enabling server-side execution of JavaScript."
+    },
+    {
+      "term": "Open Source",
+      "definition": "Software whose source code is freely available for modification and redistribution."
+    },
+    {
+      "term": "Proxy Server",
+      "definition": "Acts as an intermediary between clients and servers to filter requests or cache responses."
+    },
+    {
+      "term": "Quantum Computing",
+      "definition": "A type of computing leveraging quantum mechanics to perform complex calculations faster."
+    },
+    {
+      "term": "RESTful API",
+      "definition": "An API adhering to Representational State Transfer principles for stateless client-server interactions."
+    },
+    {
+      "term": "SQL Injection",
+      "definition": "A malicious attack injecting SQL queries via input fields to manipulate databases."
+    },
+    {
+      "term": "Thread",
+      "definition": "A sequence of instructions executed independently within a program."
+    },
+    {
+      "term": "URL",
+      "definition": "Uniform Resource Locator; the address used to access resources on the internet."
+    },
+    {
+      "term": "Version Control",
+      "definition": "A system managing changes to documents, programs, and other collections of information."
+    },
+    {
+      "term": "Wi-Fi",
+      "definition": "Wireless networking technology allowing devices to connect to the internet wirelessly."
+    },
+    {
+      "term": "XSS",
+      "definition": "Cross-Site Scripting; a security vulnerability injecting malicious scripts into trusted websites."
+    },
+    {
+      "term": "Yottabyte",
+      "definition": "A unit of digital information equal to 1 septillion bytes (10^24)."
+    },
+    {
+      "term": "Zigbee",
+      "definition": "A wireless communication protocol for low-power, short-range connectivity."
+    },
+    {
+      "term": "Algorithm",
+      "definition": "A set of rules or instructions designed to solve a problem or complete a task."
+    },
+    {
+      "term": "Binary",
+      "definition": "A system of numerical notation that uses two symbols, typically 0 and 1."
+    },
+    {
+      "term": "Cache",
+      "definition": "A temporary storage area used to speed up data retrieval processes."
+    },
+    {
+      "term": "Database",
+      "definition": "An organized collection of structured information stored electronically."
+    },
+    {
+      "term": "Encryption",
+      "definition": "The process of converting information into a code to prevent unauthorized access."
+    },
+    {
+      "term": "Firewall",
+      "definition": "A security system that monitors and controls incoming and outgoing network traffic."
+    },
+    {
+      "term": "Gateway",
+      "definition": "A device or software that acts as a bridge between two networks with different protocols."
+    },
+    {
+      "term": "Hashing",
+      "definition": "A process of transforming data into a fixed-size string of characters, usually for security purposes."
+    },
+    {
+      "term": "Interface",
+      "definition": "A shared boundary across which two systems exchange information."
+    },
+    {
+      "term": "JavaScript",
+      "definition": "A programming language commonly used for web development to create interactive elements."
+    },
+    {
+      "term": "Kernel",
+      "definition": "The central part of an operating system responsible for managing hardware resources."
+    },
+    {
+      "term": "Latency",
+      "definition": "The delay before a transfer of data begins following an instruction for its transfer."
+    },
+    {
+      "term": "Metadata",
+      "definition": "Data that provides information about other data, such as creation date or file size."
+    },
+    {
+      "term": "Network",
+      "definition": "A group of interconnected computers or devices that share resources and information."
+    },
+    {
+      "term": "Object-Oriented Programming",
+      "definition": "A programming paradigm based on objects containing both data and methods."
+    },
+    {
+      "term": "Protocol",
+      "definition": "A set of rules governing communication between devices in a network."
+    },
+    {
+      "term": "Query",
+      "definition": "A request for data or information from a database."
+    },
+    {
+      "term": "Router",
+      "definition": "A device that forwards data packets between computer networks."
+    },
+    {
+      "term": "Server",
+      "definition": "A computer system that provides services or resources to other computers over a network."
+    },
+    {
+      "term": "Tokenization",
+      "definition": "The process of breaking down text into smaller units like words or phrases."
+    },
+    {
+      "term": "Unicode",
+      "definition": "A universal character encoding standard supporting most written languages."
+    },
+    {
+      "term": "Virtual Machine",
+      "definition": "An emulation of a computer system that runs programs like a physical machine."
+    },
+    {
+      "term": "Webhook",
+      "definition": "A method of augmenting or altering the behavior of web applications through custom callbacks."
+    },
+    {
+      "term": "XML",
+      "definition": "A markup language designed to store and transport structured data."
+    },
+    {
+      "term": "YAML",
+      "definition": "A human-readable data serialization format often used for configuration files."
+    },
+    {
+      "term": "Zero-Day Exploit",
+      "definition": "A cyberattack targeting a previously unknown vulnerability in software."
+    },
+    {
+      "term": "API",
+      "definition": "Application Programming Interface; a set of rules allowing programs to communicate with each other."
+    },
+    {
+      "term": "Blockchain",
+      "definition": "A distributed ledger technology where transactions are recorded chronologically and publicly."
+    },
+    {
+      "term": "Cloud Computing",
+      "definition": "The delivery of computing services over the internet without direct management by the user."
+    },
+    {
+      "term": "DNS",
+      "definition": "Domain Name System; translates domain names into IP addresses."
+    },
+    {
+      "term": "Edge Computing",
+      "definition": "A distributed computing paradigm bringing computation closer to the data source."
+    },
+    {
+      "term": "Firmware",
+      "definition": "Software embedded into hardware devices to control their functionality."
+    },
+    {
+      "term": "Git",
+      "definition": "A version control system used to track changes in source code during software development."
+    },
+    {
+      "term": "Hyperlink",
+      "definition": "A reference to data that readers can directly follow by clicking or tapping."
+    },
+    {
+      "term": "IDE",
+      "definition": "Integrated Development Environment; software for building applications combining tools in one GUI."
+    },
+    {
+      "term": "JSON",
+      "definition": "JavaScript Object Notation; a lightweight data-interchange format."
+    },
+    {
+      "term": "Kubernetes",
+      "definition": "An open-source container orchestration platform automating deployment and scaling of apps."
+    },
+    {
+      "term": "Load Balancer",
+      "definition": "A device or software distributing incoming network traffic across multiple servers."
+    },
+    {
+      "term": "Microservices",
+      "definition": "An architectural style structuring an app as loosely coupled services."
+    },
+    {
+      "term": "Node.js",
+      "definition": "A runtime environment enabling server-side execution of JavaScript."
+    },
+    {
+      "term": "Open Source",
+      "definition": "Software whose source code is freely available for modification and redistribution."
+    },
+    {
+      "term": "Proxy Server",
+      "definition": "Acts as an intermediary between clients and servers to filter requests or cache responses."
+    },
+    {
+      "term": "Quantum Computing",
+      "definition": "A type of computing leveraging quantum mechanics to perform complex calculations faster."
+    },
+    {
+      "term": "RESTful API",
+      "definition": "An API adhering to Representational State Transfer principles for stateless client-server interactions."
+    },
+    {
+      "term": "SQL Injection",
+      "definition": "A malicious attack injecting SQL queries via input fields to manipulate databases."
+    },
+    {
+      "term": "Thread",
+      "definition": "A sequence of instructions executed independently within a program."
+    },
+    {
+      "term": "URL",
+      "definition": "Uniform Resource Locator; the address used to access resources on the internet."
+    },
+    {
+      "term": "Version Control",
+      "definition": "A system managing changes to documents, programs, and other collections of information."
+    },
+    {
+      "term": "Wi-Fi",
+      "definition": "Wireless networking technology allowing devices to connect to the internet wirelessly."
+    },
+    {
+      "term": "XSS",
+      "definition": "Cross-Site Scripting; a security vulnerability injecting malicious scripts into trusted websites."
+    },
+    {
+      "term": "Yottabyte",
+      "definition": "A unit of digital information equal to 1 septillion bytes (10^24)."
+    },
+    {
+      "term": "Zigbee",
+      "definition": "A wireless communication protocol for low-power, short-range connectivity."
     }
   ]
 }
