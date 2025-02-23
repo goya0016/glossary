@@ -1,5 +1,3 @@
-// var row = document.querySelector('.row')
-
 let definitions= new Array();
 
 
@@ -11,47 +9,54 @@ function showdefinition(ev){
      );
      definitions = arr;
    }
-for (let i = 0; i < definitions.length; i++) {
-  //   console.log(i);
-var icon = document.createElement('button');
-  var row = document.createElement("div");
-  var div1 = document.createElement("div");
-  var div2 = document.createElement("div");
+const createElement = (tag, attributes = {}, text = "") => {
+  const el = document.createElement(tag);
+  Object.entries(attributes).forEach(([key, value]) => {
+    if (key === "dataset") {
+      Object.entries(value).forEach(
+        ([dataKey, dataValue]) => (el.dataset[dataKey] = dataValue)
+      );
+    } else {
+      el[key] = value;
+    }
+  });
+  if (text) el.textContent = text;
+  return el;
+};
 
-  var label1 = document.createElement("label");
-  var label2 = document.createElement("label");
-  var input1 = document.createElement("input");
-  var input2 = document.createElement("input");
-  
-  div1.setAttribute("class", "col term");
-  div1.appendChild(label1);
-  label1.textContent="Term"
-  input1.setAttribute("placeholder", "term");
-  input1.setAttribute("type", "text");
-  input1.setAttribute("class", "form-control term");
-  input1.value = definitions[i].term;
-  div1.appendChild(input1);
+definitions.forEach((definition, i) => {
+  const row = createElement("div", { className: "row" });
+  row.dataset.id = i + 1;
 
-  div2.setAttribute("class", "col definition");
-  div2.appendChild(label2);
-  label2.textContent = "Definition";
-  input2.setAttribute("type", "text");
-  input2.setAttribute("class", "form-control");
-  input2.setAttribute("placeholder", "definition");
-  input2.value = definitions[i].definition;
-  div2.appendChild(input2);
+  const div1 = createElement("div", { className: "col term" });
+  const label1 = createElement("label", {}, "Term");
+  const input1 = createElement("input", {
+    className: "form-control term",
+    placeholder: "term",
+    type: "text",
+    value: definition.term,
+  });
 
-  icon.addEventListener('click',ev => deleteBtn(ev))
-  icon.setAttribute('class','deleteBtn')
-  icon.setAttribute("data-btn-id", i + 1);
-  icon.textContent="Delete"
-  row.setAttribute("class", "row");
-  row.setAttribute("data-id", i+1);
-  row.appendChild(div1);
-  row.appendChild(div2);
-  row.appendChild(icon);
+  const div2 = createElement("div", { className: "col definition" });
+  const label2 = createElement("label", {}, "Definition");
+  const input2 = createElement("input", {
+    className: "form-control",
+    placeholder: "definition",
+    type: "text",
+    value: definition.definition,
+  });
+
+  const icon = createElement("button", { className: "deleteBtn" }, "Delete");
+  icon.dataset.btnId = i + 1;
+  icon.addEventListener("click", deleteBtn);
+
+  div1.append(label1, input1);
+  div2.append(label2, input2);
+  row.append(div1, div2, icon);
+
   document.querySelector(".form").appendChild(row);
-}
+});
+
 }
 async function fetchFile(ev) {
   await fetch("./merged.json")
@@ -69,14 +74,10 @@ function deleteBtn(ev){
     let id = ev.target.attributes["data-btn-id"];
     id= Object.values({id})[0].nodeValue
     let val = document.querySelector(`[data-id="${id}"]`);
-    // val= val.closest("div > input")
     val = val.querySelector('input.term')
-    // .value()
     val=val.value
     console.log(definitions.filter((e) => e.term !== val));
     definitions = definitions.filter((e)=>e.term !== val)
-    console.log(definitions);
     showdefinition()
-    
 }
 window.addEventListener('DOMContentLoaded',(ev)=>{fetchFile(ev)})
