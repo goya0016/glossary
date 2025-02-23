@@ -58,6 +58,7 @@ async function fetchFile(ev) {
     .catch((err) => console.error(err));
 }
 function backToTop(ev){
+    ev.preventDefault()
    var e = "[data-letter="+currentAlpha+"]"
    console.log(e)
 var btn = document.querySelector(e)
